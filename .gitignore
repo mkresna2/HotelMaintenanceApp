@@ -1,55 +1,10 @@
-```php
-# Compiled and build artifacts
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-dist/
-build/
-target/
-
+```
 # Dependencies
 node_modules/
 vendor/
-composer.lock
-*.lock
-venv/
-.venv/
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-.gradle/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS
-.DS_Store
-Thumbs.db
+# Build artifacts
+public/build/
 
 # Compressed files
 *.zip
@@ -74,4 +29,5 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
 ```
